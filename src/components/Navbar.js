@@ -1,27 +1,28 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo_1 from '../image/etl-sticky-logo.png';
 
 const Navbar = () => {
   return (
-    <div>
-      <div className="flex justify-between">
-        <div className="logo"><img src={logo_1} alt="" /></div>
+    <div className="bg-slate-500">
+      <div className="flex container mx-auto justify-between items-center">
+        <div className="logo max-w-[200px]"><img src={logo_1} alt="" /></div>
         <nav>
-          <ul>
-            <li>
-              <a href="">Home</a>
+          <ul className="flex justify-between items-center">
+            <li className="mr-5">
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="">About Us</a>
+              <Link className="mr-5" to="about">About Us</Link>
             </li>
             <li>
-              <a href="">Press</a>
+              <Link className="mr-5" to="">Press</Link>
             </li>
             <li>
-              <a href="">Career</a>
+              <Link className="mr-5" to="">Career</Link>
             </li>
             <li>
-              <a href="">Content</a>
+              <Link className="" to="">Content</Link>
             </li>
           </ul>
         </nav>
