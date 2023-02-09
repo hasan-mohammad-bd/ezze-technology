@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo_1 from '../image/etl-sticky-logo.png';
+import logo_1 from "../../image/logo/etl_logo_white.png";
 
 const Navbar = () => {
   return (
-    <div className="bg-slate-500">
+    <div className="bg-black py-2">
       <div className="flex container mx-auto justify-between items-center">
-        <div className="logo max-w-[200px]"><img src={logo_1} alt="" /></div>
+        <div className="logo max-w-[180px]"><img src={logo_1} alt="" /></div>
         <nav>
-          <ul className="flex justify-between items-center">
+          <ul className="flex justify-between items-center text-white text-[1rem]">
             <li className="mr-5">
               <Link to="/">Home</Link>
             </li>
