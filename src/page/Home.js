@@ -1,9 +1,10 @@
 import React from 'react';
+import ShowCase from '../components/showCase/ShowCase';
 
 const Home = () => {
     return (
         <div>
-            This is Home page!!
+            <ShowCase/>
         </div>
     );
 };
