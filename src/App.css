@@ -37,6 +37,12 @@
   background-size: cover;
   color: white;
 }
+.bg-left-up {
+  background-image: url("./image/bg-left-up.png");
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
 
 .box-1 {
   background: rgba(56, 56, 56, 0.35);

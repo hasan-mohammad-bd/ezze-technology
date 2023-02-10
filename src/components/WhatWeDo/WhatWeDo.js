@@ -11,14 +11,14 @@ const WhatWeDo = () => {
   return (
     <div className="bg-left-down">
       <div className="container mx-auto gap-10">
-        <h1 className="text-center text-4xl font-bold py-7">What We Do</h1>
-        <p className="text-white text-center max-w-[700px] px-5 md:px-0 md:mx-auto">
+      <h3 className="text-5xl font-bold pt-10 text-center">What We Do</h3>
+        <p className="text-white text-center max-w-[700px] p-5 md:px-0 md:mx-auto">
           Ezze Technology Ltd. is dedicated to providing innovative and
           cutting-edge solutions to meet the evolving needs of the tech
           industry. In recent years, we have been focused on expanding our
           product line and expanding into new markets.
         </p>
-        <div className="shadow-lg m-5 md:m-0 md:p-[50px] rounded-3xl grid grid-cols-1 md:grid-cols-3 gap-10 p-5">
+        <div className="md:p-[50px] grid grid-cols-1 md:grid-cols-3 gap-10 p-5">
           <div className="flex flex-col justify-between items-center shadow-lg box-1 bg-gray-100 p-7 rounded-md ">
             <div className="img my-5">
               <FaReact className="text-7xl text-blue-500" />
