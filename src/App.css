@@ -4,3 +4,84 @@
   font-family: "Poppins", sans-serif;
 }
 
+.hero-section {
+  background-image: url("./image/hero-bg-4.png");
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.text-1 {
+  background: rgba(56, 56, 56, 0.35);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(14.4px);
+  -webkit-backdrop-filter: blur(14.4px);
+}
+
+.bg-up {
+  background-image: url("./image/bg-up.png");
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.bg-down {
+  background-image: url("./image/bg-down.png");
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.bg-left-down {
+  background-image: url("./image/bg-left-down.png");
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.box-1 {
+  background: rgba(56, 56, 56, 0.35);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(14.4px);
+  -webkit-backdrop-filter: blur(14.4px);
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+
+.box-1:hover {
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(14.4px);
+  -webkit-backdrop-filter: blur(14.4px);
+
+  transform: translate(0px, -5px);
+}
+
+.what-we {
+  background-image: url(./image/empty-back.png);
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 800px) {
+  .hero-section {
+    background-position: -220px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero-section {
+    background-position: -620px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .text-1 {
+    border-radius: 0;
+  }
+
+  .hero-section text {
+  }
+}
