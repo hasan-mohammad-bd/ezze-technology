@@ -18,9 +18,9 @@ import img_16 from '../../image/clients/PhotoRoom-20230211_032018_16.png';
 
 const Clients = () => {
     return (
-        <div className='py-10 bg-down'>
-                            <h3 className="text-3xl font-bold py-10 text-center">Clients</h3>
-            <div className='client container  rounded-3xl box-1 mx-auto grid grid-cols-2 lg:grid-cols-8 md:grid-cols-4 gap-y-4 p-5'>
+        <div className=''>
+                            <h3 className="text-3xl font-bold py-10 text-center">Our Clients</h3>
+            <div className='client container  rounded-3xl text-1 mx-auto grid grid-cols-2 lg:grid-cols-8 md:grid-cols-4 gap-y-4 p-5'>
                 <div className="img"><img src={img_1} alt="" /></div>
                 <div className="img"><img src={img_2}alt="" /></div>
                 <div className="img"><img src={img_3}alt="" /></div>

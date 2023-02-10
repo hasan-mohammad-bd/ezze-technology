@@ -1,6 +1,7 @@
 import React from 'react';
 import Achievement from '../components/achievement/Achievement';
 import Clients from '../components/clients/Clients';
+import Company from '../components/Company/Company';
 
 
 import RecentWork from '../components/recentWork/RecentWork';
@@ -14,7 +15,7 @@ const Home = () => {
             <RecentWork/>
             <WhatWeDo/>
             <Achievement/>
-            <Clients/>
+            <Company/>
             
         </div>
     );
