@@ -18,7 +18,7 @@ const WhatWeDo = () => {
           industry. In recent years, we have been focused on expanding our
           product line and expanding into new markets.
         </p>
-        <div className="md:p-[50px] grid grid-cols-1 md:grid-cols-3 gap-10 p-5">
+        <div className="md:p-[50px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 p-5">
           <div className="flex flex-col justify-between items-center shadow-lg box-1 bg-gray-100 p-7 rounded-md ">
             <div className="img my-5">
               <FaReact className="text-7xl text-blue-500" />

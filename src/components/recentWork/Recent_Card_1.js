@@ -3,7 +3,7 @@ import mojib from "../../image/Mujib100-logo.png";
 
 const Recent_Card_1 = () => {
   return (
-    <div className="flex flex-col mx-5 md:mx-5 justify-between items-center shadow-lg box-1 bg-gray-100 p-7 rounded-md ">
+    <div className="flex flex-col justify-between items-center shadow-lg box-1 bg-gray-100 p-3 rounded-md ">
       <div className="img my-5">
         <img src={mojib} alt="" />
       </div>

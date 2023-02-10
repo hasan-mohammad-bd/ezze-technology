@@ -8,7 +8,7 @@ const Achievement_3 = () => {
                 <RiAwardLine className='text-6xl mb-[-10px] text-green-300'/>
             </div>
             <div className='text-white'>
-            <h4 className='my-3 text-xl'>Best Live Streaming Award</h4>
+            <h4 className='my-3 text-xl'>Arijit Singh Live In Concert</h4>
             <p>Arijit Singh Live in Concert: 12th Dec 2014 — at Jamuna Future Park, Dhaka</p>
             </div>
         </div>
