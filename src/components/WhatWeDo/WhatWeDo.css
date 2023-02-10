@@ -1,0 +1,30 @@
+.box-1{
+
+/*     border: 5px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(to right , #513ad573,#ffffff00 );
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0; */
+  /* border-top: 0; */
+  transition: all 0.4s ease-in-out;
+
+/* 
+    border-width: 5px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        rgb(0, 183, 255), 
+        rgba(0, 0, 0, 0)
+      ) 1 100%; */
+  }
+
+
+.box-1:hover {
+    background-color: rgb(233, 233, 233);
+    transition: all 0.4s ease-in-out;
+    transform: translate(0px, -5px);
+    
+}
