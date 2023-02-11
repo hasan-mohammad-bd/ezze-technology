@@ -15,12 +15,18 @@ import img_13 from '../../image/clients/PhotoRoom-20230211_032018_13.png';
 import img_14 from '../../image/clients/PhotoRoom-20230211_032018_14.png';
 import img_15 from '../../image/clients/PhotoRoom-20230211_032018_15.png';
 import img_16 from '../../image/clients/PhotoRoom-20230211_032018_16.png';
+import { useSpring, animated } from "@react-spring/web";
 
 const Clients = () => {
+    const slider = useSpring({
+        from: { y: 100 },
+        to: { y: 0 },
+        
+      })
     return (
         <div className='md:py-16'>
                             <h3 className="text-3xl md:text-5xl font-bold py-10 text-center">Our Clients</h3>
-            <div className='client container  rounded-3xl text-1 mx-auto grid grid-cols-2 lg:grid-cols-8 md:grid-cols-4 gap-y-4 p-5'>
+            <animated.div style={slider} className='client container  rounded-3xl text-1 mx-auto grid grid-cols-2 lg:grid-cols-8 md:grid-cols-4 gap-y-4 p-5'>
                 <div className="img"><img src={img_1} alt="" /></div>
                 <div className="img"><img src={img_2}alt="" /></div>
                 <div className="img"><img src={img_3}alt="" /></div>
@@ -37,7 +43,7 @@ const Clients = () => {
                 <div className="img"><img className='bg-gray-700 px-3 rounded-md' src={img_14}alt="" /></div>
                 <div className="img"><img src={img_15}alt="" /></div>
                 <div className="img"><img src={img_16}alt="" /></div>
-            </div>
+            </animated.div>
         </div>
     );
 };

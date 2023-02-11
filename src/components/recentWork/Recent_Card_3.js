@@ -10,7 +10,7 @@ const Recent_Card_3 = () => {
         <h1 className="text-center my-2">BLOODBANK LIVE</h1>
         <p className='text-sm text-green-600'>Mobile Application</p>
         <button className="bg-yellow-700 p-2 text-white rounded my-3">
-          <a href="https://bloodbank.live/" _target="_blank">
+          <a href="https://play.google.com/store/apps/details?id=com.nextcorp.startupbangladesh360ar&hl=en&gl=US" _target="_blank">
             View Site
           </a>
         </button>

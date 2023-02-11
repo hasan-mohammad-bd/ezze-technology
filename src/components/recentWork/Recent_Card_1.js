@@ -1,9 +1,15 @@
 import React from "react";
 import mojib from "../../image/Mujib100-logo.png";
+import { useSpring, animated } from "@react-spring/web";
 
 const Recent_Card_1 = () => {
+    const slider = useSpring({
+        from: { y: 100 },
+        to: { y: 0 },
+        
+      })
   return (
-    <div className="flex flex-col justify-between items-center shadow-lg box-1 bg-gray-100 p-3 rounded-md ">
+    <animated.div style={{...slider}} className="flex flex-col justify-between items-center shadow-lg box-1 bg-gray-100 p-3 rounded-md ">
       <div className="img my-5">
         <img src={mojib} alt="" />
       </div>
@@ -14,7 +20,7 @@ const Recent_Card_1 = () => {
           View Site
         </a>
       </button>
-    </div>
+    </animated.div>
   );
 };
 
