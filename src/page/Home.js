@@ -1,5 +1,7 @@
 import React from 'react';
 import Achievement from '../components/achievement/Achievement';
+import Brands from '../components/brands/Brands';
+import BrandsPhoto from '../components/brandsAndPhoto/Brands&Photo';
 import Clients from '../components/clients/Clients';
 import Company from '../components/Company/Company';
 
@@ -16,6 +18,7 @@ const Home = () => {
             <WhatWeDo/>
             <Achievement/>
             <Company/>
+            <BrandsPhoto/>
             
         </div>
     );

@@ -14,7 +14,7 @@ const RecentWork = () => {
           <Recent_Card_3 />
         </div>
         <div className="text m-10">
-          <h3 className="text-5xl font-bold pt-10">Recent Work</h3>
+          <h3 className="text-5xl md:text-3xl font-bold pt-10">Recent Work</h3>
           <p className="my-5">
             We are constantly exploring new ways to improve our technology and
             stay ahead of the curve. Whether it is through developing new

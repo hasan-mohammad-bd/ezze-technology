@@ -9,7 +9,7 @@ const Achievement = () => {
         <div className='bg-left-up px-5 md:px-0'>
             <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
                 <div className="text flex-1">
-                <h3 className="text-5xl font-bold py-10 text-center">Achievements</h3>
+                <h3 className="text-3xl md:text-5xl font-bold py-10 text-center">Achievements</h3>
                 <div className="text-box grid grid-cols-1 flex-1 gap-y-5">
                     <Achievement_1/>
                     <Achievement_2/>

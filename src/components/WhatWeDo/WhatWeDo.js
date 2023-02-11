@@ -11,7 +11,7 @@ const WhatWeDo = () => {
   return (
     <div className="bg-left-down">
       <div className="container mx-auto gap-10">
-      <h3 className="text-5xl font-bold pt-10 text-center">What We Do</h3>
+      <h3 className="text-3xl md:text-5xl font-bold pt-10 text-center">What We Do</h3>
         <p className="text-white text-center max-w-[700px] p-5 md:px-0 md:mx-auto">
           Ezze Technology Ltd. is dedicated to providing innovative and
           cutting-edge solutions to meet the evolving needs of the tech
