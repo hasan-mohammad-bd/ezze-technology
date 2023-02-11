@@ -6,6 +6,7 @@ import Home from './page/Home';
 import About from './page/About';
 import PageNotFound from './components/pageNotFound/PageNotFound';
 import Career from './components/career/Career';
+import Press from './components/press/Press';
 
 function App() {
   const router = createBrowserRouter([
@@ -24,7 +25,7 @@ function App() {
         },
         {
           path: 'press',
-          element: <About/>
+          element: <Press/>
 
         },
         {
@@ -34,6 +35,11 @@ function App() {
         },
         {
           path: 'career',
+          element: <Career/>
+
+        },
+        {
+          path: 'contact',
           element: <Career/>
 
         },
