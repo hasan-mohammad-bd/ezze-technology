@@ -5,7 +5,7 @@ import { FaChevronCircleRight } from "@react-icons/all-files/fa/FaChevronCircleR
 const Footer_col_2 = () => {
   return (
     <div className="py-3">
-                    <h3 className="text-lg pb-8">Company:</h3>
+      <h3 className="text-lg pb-8">Company:</h3>
       <div className="grid grid-cols-2 gap-2">
         <div className="flex justify-start items-center mb-1">
           <FaChevronCircleRight className="mr-3" /> <p>About</p>
